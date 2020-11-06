@@ -1,0 +1,321 @@
+.tou-1 {
+	width: 1280PX;
+	height: 72PX;
+	background: #FFFFFF;
+	margin: auto;
+}
+
+.tu-1 {
+	width: 100px;
+	height: 70px;
+}
+
+.tu-1 a img {
+	width: 100%;
+	padding-top: 10px;
+}
+
+
+.tu-3 {
+	width: 100PX;
+	height: 50PX;
+	margin-left: 130PX;
+	margin-top: -60PX;
+}
+
+.tu-3 li {
+	width: 50px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 39px;
+	text-decoration: none;
+}
+
+.a-1 {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.tu-4 {
+	width: 270PX;
+	height: 40PX;
+	border: 1px solid #DDDDDD;
+	background: #DDDDDD;
+	margin-left: 460PX;
+	margin-top: -50px;
+	border-radius: 25px 0 0 25px
+}
+
+.tu-4 img {
+	width: 20PX;
+	height: 20PX;
+	margin-left: 10PX;
+	margin-top: 10PX;
+}
+
+.inp-1 {
+	width: 220PX;
+	height: 23PX;
+	display: block;
+	margin-left: 44px;
+	margin-top: -23px;
+	border: 0px;
+	background: #DDDDDD;
+}
+
+.inp-2 {
+	width: 65PX;
+	height: 42PX;
+	display: block;
+	margin-left: 269PX;
+	margin-top: -31PX;
+	border: 1px;
+	border-radius: 0 25PX 25PX 0;
+	background: pink;
+	color: #FFFFFF;
+}
+
+.tu-5 {
+	width: 220PX;
+	height: 50PX;
+
+	margin-left: 870PX;
+	margin-top: -50PX;
+}
+
+.tu-5 li {
+	width: 71px;
+	height: 50px;
+
+	float: left;
+}
+
+.tu-5 li img {
+	width: 20PX;
+	height: 20PX;
+	margin-top: 15PX;
+}
+
+.tu-5 li a {
+	display: block;
+	margin-left: 23PX;
+	margin-top: -22PX;
+	text-decoration: none;
+}
+
+
+/* #ul ul{
+margin-top: 100px;}
+#ul ul li{
+height: 200px;
+border: 1px solid;}
+#ul img{width: 100px;
+height: 100px;
+margin-top: 0px;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    width: 1280px;
+    height: 100%;
+	margin: auto;
+    background-color: #FFFFFF
+}
+
+.cart-head {
+    width: 1060px;
+    min-height: 50px;
+    background-color: #999999;
+    margin-left:320px;
+}
+
+.checked-btn {
+    width: 60px;
+    height: 70px;
+    float: left;
+    line-height: 70px;
+    margin-left: 60px;
+    color: white;
+}
+
+.message {
+    width: 100px;
+    height: 70px;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    margin-left: 190px;
+}
+
+.message img {
+    width: 70px;
+    height: 70px;
+   float: left;
+}
+
+.message-rig {
+    width:220px;
+    height: 70px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+
+.oUl {
+    width: 550px;
+    height: 70px;
+    float: right;
+}
+
+.oUl li {
+    float: left;
+    margin: 0 30px;
+    line-height: 70px;
+    color: white;
+    width: 69px;
+    text-align: center;
+}
+
+.cart-heads {
+	border-top: 1px solid black;
+    width: 1060px;
+    min-height: 150px;
+    background-color:#DDDDDD;
+	margin-left: 320px;
+}
+
+.checked-btns {
+    width: 100px;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+    margin-left: 20px;
+    color: white;
+}
+
+.messages {
+    width: 300px;
+    height: 100px;
+    float: left;
+    color: white;
+    margin-left: 40px;
+    /* border: 1px solid red; */
+}
+
+.messages img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: white;
+}
+
+.messages-rig {
+    width: 198px;
+    height: 100px;
+    float: left;
+    font-size: 15px;
+    /* border: 1px solid magenta; */
+    text-align: left;
+}
+
+.messages-rig span {
+    display: inline-block;
+    width: 195px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.oUls {
+    width: 600px;
+    height: 100px;
+    float: right;
+}
+
+.oUls li {
+    float: left;
+    margin: 0 40px;
+    line-height: 100px;
+    color: white;
+    width: 69px;
+    text-align: center;
+}
+
+.two button {
+    width: 16px;
+    height: 20px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.delBtn {
+    width: 40px;
+    height: 20px;
+}
+
+.two input {
+    width: 16px;
+    height: 16px;
+    outline: none;
+}
+
+#end {
+    width: 1280px;
+    height: 50px;
+    background-color: white;
+    margin: 0 auto;
+    /* margin-top: 300px; */
+    position: fixed;
+    bottom: 0;
+    left: 84px;
+    z-index: 999;
+}
+
+#sumBtn {
+    display: block;
+    width: 90px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    float: right;
+    background-color: blue;
+    outline: none;
+	margin-left: 200px;
+}
+
+#end span {
+    display: block;
+    float: right;
+	height: 50px;
+	background: bisque;
+	line-height: 50px;
+}
+
+#sum {
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+#null {
+    width: 30px;
+    height: 40px;
+}
+

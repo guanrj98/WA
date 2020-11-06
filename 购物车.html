@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/公共.css"/>
+		<link rel="stylesheet" type="text/css" href="css/购物车.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+		
+		
+		
+	</head>
+	<body>
+		<div class="tou-1">
+			<div class="tu-1">
+				<a href=""><img src="img/TB1fbVFfu3tHKVjSZSgXXX4QFXa-230-104.png"></a>
+			</div>
+			<div class="tu-3">
+				<ul>
+					<li><a class="a-1" href="">首页</a></li>
+					<li><a class="" href="">分类</a></li>
+				</ul>
+			</div>
+			<div class="tu-4">
+				<img src="img/TB1qv3jxGmWBuNjy1XaXXXCbXXa-34-36.png">
+				<input class="inp-1" type="text" placeholder="探索明星丶演出丶体育赛事" />
+				<input class="inp-2" type="button" value="搜索" />
+			</div>
+			<div class="tu-5">
+				<li><img src="./img/TB14UKCGQyWBuNjy0FpXXassXXa-54-54.png"><a class="xianshi-1" href="">登陆
+					</a></li>
+				<li><img src="img/TB1A9eIGKuSBuNjy1XcXXcYjFXa-54-54.png"><a href="">下载</a></li>
+				<li><img src="img/TB13UKCGQyWBuNjy0FpXXassXXa-54-54.png"><a href="">English</a></li>
+		
+			</div>
+		</div>
+		</div>
+     <!-- <img src=""  alt="" class="img" >
+			<span class="span"></span>
+			<span class="span-1"></span>
+			<span class="span-2"></span>
+			<p class="span-3"></p> -->
+	
+		
+		
+		<!-- <script src="./js/jquery.1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$.ajax({
+				url:"http://jx.xuzhixiang.top/ap/api/cart-list.php",
+				type:"get",
+				data:{
+					id:localStorage.getItem('u-id')
+				},
+				success:function(res){
+					console.log(res.data)
+					let pro=res.data;
+					let html="";
+					pro.forEach(v=>{
+						html +=`<li>
+						<img src="${v.pimg}"  alt="" class="img" >
+			<span class="span-1">${v.pdesc}</span>
+			<span class="span-2">${v.pname}</span>
+			<p class="span-3">${v.pprice}</p>
+			<span class="delBtn" data-id="${v.pid}">删除</span>
+					</li>
+`
+					})
+					$(".span").html(html)
+					delData()
+				}
+			})
+			 function delData(){
+			        $(".delBtn").click(function(){
+			          console.log($(this).attr('data-id'))
+			          $.ajax({
+			              url:"http://jx.xuzhixiang.top/ap/api/cart-delete.php",
+			              data:{
+			                  uid:localStorage.getItem("u-id"),
+			                  pid:$(this).attr('data-id')
+			              },
+			              success:()=>{
+			                  $(this).parent().parent().remove()
+			              }
+			          })
+			      })
+			     }
+
+		
+		</script> -->
+		  <section id="sections">
+		        <!-- cart -->
+		        <div class="cart-head">
+		            <div class="checked-btn">
+		                <input type="checkbox" name="" id="checked-all-btn"> 全选
+		            </div>
+		            <div class="message">
+		                商品信息
+		            </div>
+		            <ul class="oUl">
+		                <li>单价</li>
+		                <li>数量</li>
+		                <li>金额</li>
+		                <li>操作</li>
+		            </ul>
+		        </div>
+		    </section>
+		    <section id="section">
+		    </section>
+		    <!-- 总和 -->
+		    <div id="end">
+		
+		
+		        <button id="sumBtn">结算</button>
+		        <span id="null"></span>
+		        <span>元</span>
+		
+		        <span id="sum">0</span>
+		        <span>您需要支付：</span>
+		   
+	</body>
+</html>

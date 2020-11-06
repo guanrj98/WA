@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/公共.css" />
+		<link rel="stylesheet" type="text/css" href="css/注册.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<script src="js/jquery.1.11.3.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+	<body>
+		<div class="tou-1">
+			<a href=""><img src="img/TB1fbVFfu3tHKVjSZSgXXX4QFXa-230-104.png"></a>
+			<div class="tou-1-1">
+				<a href=""><span>English</span></a>
+			</div>
+		</div>
+		<div class="shen-1">
+			<div class="shen-2">
+				<div class="zhuce-1">
+					<p>*手机号:</p>
+					<select class="xuanze">
+						<option>中国大陆+86</option>
+						<option>中国大陆+886</option>
+						<option>中国大陆+852</option>
+						<option>中国澳门+853</option>
+
+					</select>
+					<input type="text" name="" id="user" value="" />
+				</div>
+			</div>
+			<div class="zhuce-2">
+				<p>*输入密码:</p>
+				<input type="text" placeholder="输入密码" id="psd" />
+			</div>
+
+			<div class="an-1">
+				<input type="button" id="ntb" value="登陆注册" />
+			</div>
+		</div>
+		</div>
+
+
+		<script type="text/javascript">
+			$("#ntb").click(function() {
+				let A = $("#user").val();
+				let B = $("#psd").val();
+				$.ajax({
+					url: "http://jx.xuzhixiang.top/ap/api/reg.php",
+					type: 'Get',
+					data: `username=${A}&password=${B}`,
+					success: function(res) {
+						console.log(res);
+					      
+						$("#ntb").click(function() {
+							alert("注册成功哦")
+							location.href = "登陆.html";
+						
+
+						})
+
+					}
+
+				})
+			})
+		</script>
+
+
+	</body>
+</html>

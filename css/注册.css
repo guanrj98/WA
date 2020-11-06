@@ -1,0 +1,111 @@
+.tou-1 {
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF
+}
+
+.tou-1 img {
+	width: 100PX;
+	height: 50PX;
+	margin-top: 20PX;
+	margin-left: 160PX;
+}
+
+.tou-1-1 {
+	width: 130PX;
+	height: 40PX;
+	border: 1PX solid #DDDDDD;
+	margin-left: 1240px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 40px;
+	margin-top: -45px;
+}
+
+.tou-1-1 a {
+	text-decoration: none;
+	color: black;
+}
+.shen-1{width: 100%;
+height: 620PX;
+background: #DDDDDD;
+border-bottom: 5PX solid #FFFFFF;}
+.shen-2{width: 80%;
+height: 620PX;
+margin: auto;
+border-top: 40px solid #DDDDDD;
+background: #FFFFFF;}
+.zhuce-1{width: 400PX;
+height: 150PX;
+border: 1px solid #FFFFFF;
+margin: auto;}
+.zhuce-1 p {font-size: 20PX;
+margin-top: 45px;}
+.xuanze{display: block;
+	width: 130PX;
+height: 40px;
+margin-left: 80px;
+margin-top: -45px;
+border: 1PX solid#FF1268;}
+.zhuce-1 input{width: 140px;
+height: 40px;
+display: block;
+margin-left: 210px;
+margin-top: -40px;
+border: 1px solid #FF1268;}
+
+.zhuce-2{width: 400PX;
+height: 150PX;
+margin: auto;
+margin-top:-490px;}
+.zhuce-2 p {font-size: 20PX;
+margin-top: 45px;
+margin-left: -20px;}
+.zhuce-2 input{width: 270px;
+height: 40px;
+display: block;
+margin-left: 80px;
+margin-top: -40px;
+border: 1px solid #FF1268;}
+
+.zhuce-3{width: 400px;
+height: 150px;
+margin:auto;
+margin-top: -105px;}
+.zhuce-3 p {font-size: 20PX;
+margin-top: 45px;
+margin-left: -20px;}
+.zhuce-3 input{width: 270px;
+height: 40px;
+display: block;
+margin-left: 80px;
+margin-top: -40px;
+border: 1px solid #FF1268;}
+.contain p{font-size: 19px;
+margin-top: -5px;
+margin-left: -70px;}
+#blankCheckbox{width: 20PX;
+height: 20PX;
+margin-top: -190PX;
+margin-left: 60PX;}
+.checkbox span {display: block;
+width: 200px;
+height: 100px;
+margin-top: -218px;
+margin-left: 110px;}
+.int input{width: 120PX;
+height: 40PX;
+background: #FF1268;
+color: #FFFFFF;
+margin-top: -130PX;}
+.an-1 input{width: 260PX;
+height: 40px;
+display: block;
+margin-top: -70PX;
+background: #FF1268;
+color: #FFFFFF;
+margin-left: 530px;}
+.an-1{
+width: 10px;
+margin-left: 120PX;
+}

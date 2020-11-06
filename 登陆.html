@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+			<script src="js/jquery.1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="公共.css" />
+		<link rel="stylesheet" type="text/css" href="css/登陆.css" />
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+	
+
+	</head>
+	<body>
+		<div class="tou-1">
+			<a href=""><img src="img/TB1fbVFfu3tHKVjSZSgXXX4QFXa-230-104.png"></a>
+			<div class="tou-1-1">
+				<a href=""><span>English</span></a>
+			</div>
+
+		</div>
+		<div class="tou-2">
+			<img class="img-1" src="img/微信图片_20201012134421.png">
+			<div class="dneglu-1">
+				<ul>
+					<li>密码登陆</li>
+					<li>短信登陆</li>
+					<li>扫码登陆</li>
+				</ul>
+			</div>
+			<div class="yonghu">
+				<span class="glyphicon glyphicon-cloud"></span>
+				<input type="text"  id="user" placeholder="    请输入手机号或邮箱" />
+			</div>
+			<div class="mima">
+				<span class="glyphicon glyphicon-cloud"></span>
+				<input type="text" id="psd" placeholder="    请输入登陆密码" />
+			</div>
+
+			<input class="an-1" type="button" name="" id="ntb" value="登陆" />
+			<img class="img-2" src="img/QQ截图20201012164613.png">
+			<a href="">
+				<p class="p-1">忘记密码</p>
+			</a>
+			<a href="">
+				<p class="p-2">免费注册</p>
+			</a>
+			
+			<script type="text/javascript">
+				$("#ntb").click(function() {
+					let A = $("#user").val();
+					let B = $("#psd").val();
+					$.ajax({
+						url: "http://jx.xuzhixiang.top/ap/api/login.php",
+						type: 'Get',
+						data: `username=${A}&password=${B}`,
+						success: function(res) {
+							console.log(res.data.id);
+							localStorage.setItem('u-id',res.data.id)
+						      
+							$("#ntb").click(function() {
+								alert("登陆成功")
+								location.href = "主页.html";
+							
+			
+							})
+			
+						}
+			
+					})
+				})
+			</script>
+
+	</body>
+</html>

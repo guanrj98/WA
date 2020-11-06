@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/公共.css" />
+		<link rel="stylesheet" type="text/css" href="css/列表.css" />
+	</head>
+	<body>
+		<div class="tou-1">
+			<div class="tu-1">
+				<a href=""><img src="img/TB1fbVFfu3tHKVjSZSgXXX4QFXa-230-104.png"></a>
+			</div>
+			<div class="tu-3">
+				<ul>
+					<li><a class="a-1" href="">首页</a></li>
+					<li><a class="" href="">分类</a></li>
+				</ul>
+			</div>
+			<div class="tu-4">
+				<img src="img/TB1qv3jxGmWBuNjy1XaXXXCbXXa-34-36.png">
+				<input class="inp-1" type="text" placeholder="探索明星丶演出丶体育赛事" />
+				<input class="inp-2" type="button" value="搜索" />
+			</div>
+			<div class="tu-5">
+				<li><img src="./img/TB14UKCGQyWBuNjy0FpXXassXXa-54-54.png"><a class="xianshi-1" href="">登陆
+					</a></li>
+				<li><img src="img/TB1A9eIGKuSBuNjy1XcXXcYjFXa-54-54.png"><a href="">下载</a></li>
+				<li><img src="img/TB13UKCGQyWBuNjy0FpXXassXXa-54-54.png"><a href="">English</a></li>
+
+			</div>
+		</div>
+		</div>
+		<div class="shen-1">
+			<h3>共<span>450</span>个商品</h3>
+			<div class="nei-1">
+				<ul class="ul-1">
+					<li>城市:</li>
+					<li>当前选中城市</li>
+					<li>全国</li>
+				</ul>
+				<p class="p-1">全部</p>
+				<ul class="ul-2">
+					<a href="">
+						<li>上海</li>
+					</a>
+					<a href="">
+						<li>北京</li>
+					</a>
+					<a href="">
+						<li>武汉</li>
+					</a>
+					<a href="">
+						<li>深圳</li>
+					</a>
+					<a href="">
+						<li>广州</li>
+					</a>
+					<a href="">
+						<li>成都</li>
+					</a>
+					<a href="">
+						<li>杭州</li>
+					</a>
+					<a href="">
+						<li>重庆</li>
+					</a>
+					<a href="">
+						<li>南京</li>
+					</a>
+					<a href="">
+						<li>长沙</li>
+					</a>
+					<a href="">
+						<li>郑州</li>
+					</a>
+					<a href="">
+						<li>西安</li>
+					</a>
+					<a href="">
+						<li>天津</li>
+					</a>
+					<a href="">
+						<li>青岛</li>
+					</a>
+				</ul>
+				<p class="p-2">分类: &nbsp &nbsp &nbsp 全部</p>
+				<ul class="ul-3">
+					<a href="">
+						<li>话剧歌剧</li>
+					</a>
+					<a href="">
+						<li>音乐会</li>
+					</a>
+					<a href="">
+						<li>演唱会</li>
+					</a>
+					<a href="">
+						<li>展览休闲</li>
+					</a>
+					<a href="">
+						<li>曲范杂坛</li>
+					</a>
+					<a href="">
+						<li>舞蹈芭蕾</li>
+					</a>
+					<a href="">
+						<li>体育</li>
+					</a>
+					<a href="">
+						<li>其他</li>
+					</a>
+					<a href="">
+						<li>儿童亲子</li>
+					</a>
+					<a href="">
+						<li>旅游演艺</li>
+					</a>
+				</ul>
+				<p class="p-3">子类:</p>
+				<ul class="ul-4">
+					<a href="">
+						<li>全部</li>
+					</a>
+					<a href="">
+						<li>livehouse</li>
+					</a>
+					<a href="">
+						<li>其他</li>
+					</a>
+					<a href="">
+						<li>摇滚</li>
+					</a>
+					<a href="">
+						<li>流行</li>
+					</a>
+					<a href="">
+						<li>音乐节</li>
+					</a>
+				</ul>
+				<p class="p-3">时间:</p>
+				<ul class="ul-4">
+					<a href="">
+						<li>全部</li>
+					</a>
+					<a href="">
+						<li>今天</li>
+					</a>
+					<a href="">
+						<li>明天</li>
+					</a>
+					<a href="">
+						<li>本周末</li>
+					</a>
+					<a href="">
+						<li>一月内</li>
+					</a>
+					<a href="">
+						<li>按日历</li>
+					</a>
+				</ul>
+			</div>
+			<ul id="zhu">
+				<li><img src=>
+					<p></p>
+					<span></span>
+
+					<span></span>
+				</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		
+		
+		<script src="js/jquery.1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$.ajax({
+				url: "http://jx.xuzhixiang.top/ap/api/productlist.php",
+				type: "get",
+				data: {
+					uid: 5000
+				},
+
+				success: function(res) {
+					console.log(res.data)
+					let products = res.data;
+					let html = '';
+					products.forEach(v => {
+						html +=
+							`<li>
+							  <a href="详情页.html?pid=${v.pid}"><img src="${v.pimg}" alt=""></a>
+						                      
+						<a href="详情页.html"> <p>${v.pdesc}</p></a>
+					<a href="详情页.html"><span>${v.pname}</span></a>
+						
+						<br><br><br>
+		<a href="详情页.html"><span>${v.pprice}</span></a>			
+					</li>`
+					})
+					$("#zhu").html(html);
+				}
+
+			})
+			
+		</script>
+	</body>
+</html>

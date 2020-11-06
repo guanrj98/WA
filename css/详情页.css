@@ -1,0 +1,154 @@
+.tou-1 {
+	width: 1090PX;
+	height: 72PX;
+	background: #FFFFFF;
+	margin: auto;
+}
+
+.tu-1 {
+	width: 100px;
+	height: 70px;
+}
+
+.tu-1 a img {
+	width: 100%;
+	padding-top: 10px;
+}
+
+.tu-2 {
+	width: 100px;
+	height: 50px;
+	margin-left: 130px;
+	margin-top: -55px;
+}
+
+.img-1 {
+	width: 15px;
+	height: 15px;
+	margin-left: 126PX;
+	margin-top: -45PX;
+}
+
+.tu-2 li {
+	margin-left: 20PX;
+	margin-top: 40PX;
+}
+
+.img-2 {
+	width: 15px;
+	height: 10px;
+	margin-left: 55px;
+	margin-top: -15px;
+}
+
+.tu-3 {
+	width: 100PX;
+	height: 50PX;
+	margin-left: 220PX;
+	margin-top: -60PX;
+}
+
+.tu-3 li {
+	width: 50px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 39px;
+	text-decoration: none;
+}
+
+.a-1 {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.tu-4 {
+	width: 270PX;
+	height: 40PX;
+	border: 1px solid #DDDDDD;
+	background: #DDDDDD;
+	margin-left: 460PX;
+	margin-top: -55px;
+	border-radius: 25px 0 0 25px
+}
+
+.tu-4 img {
+	width: 20PX;
+	height: 20PX;
+	margin-left: 10PX;
+	margin-top: 10PX;
+}
+
+.inp-1 {
+	width: 220PX;
+	height: 23PX;
+	display: block;
+	margin-left: 44px;
+	margin-top: -23px;
+	border: 0px;
+	background: #DDDDDD;
+}
+
+.inp-2 {
+	width: 65PX;
+	height: 42PX;
+	display: block;
+	margin-left: 269PX;
+	margin-top: -33PX;
+	border: 1px;
+	border-radius: 0 25PX 25PX 0;
+	background: pink;
+	color: #FFFFFF;
+}
+
+.tu-5 {
+	width: 220PX;
+	height: 50PX;
+
+	margin-left: 870PX;
+	margin-top: -40PX;
+}
+
+.tu-5 li {
+	width: 71px;
+	height: 50px;
+
+	float: left;
+}
+
+.tu-5 li img {
+	width: 20PX;
+	height: 20PX;
+	margin-top: 15PX;
+}
+
+.tu-5 li a {
+	display: block;
+	margin-left: 23PX;
+	margin-top: -22PX;
+	text-decoration: none;
+}
+.tou-2{width: 1090PX;
+height: 500PX;
+background: black;
+margin: auto;}
+.img{width: 500PX;
+height: 500PX;
+margin-left: 200PX;
+margin-top: 20PX;}
+.p{margin-left: 700PX;
+margin-top: -80PX;
+font-size: 20PX;}
+.span{margin-left: 750px;
+display: block;
+margin-top:-400px;}
+.span-1{margin-left: 710PX;
+display: block;
+margin-top: 370PX;
+font-size: 20PX;
+color: #FF1268;}
+.button{width: 600PX;
+height: 30PX;
+margin-left: 870px;
+margin-top: 20px;
+color: #0000FF;}
